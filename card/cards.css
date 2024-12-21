@@ -1,0 +1,37 @@
+main{
+  width: 900px;
+  margin:auto; /*widthとセットで使う。要素を中央に揃えるときに使う*/
+}
+
+.cards{
+  display:flex;
+  flex-wrap:wrap/*自動折り返し*/
+}
+
+.card{
+  width: 250px;
+  box-shadow: 6px 5px #e2e2e2;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: solid 1px #cacaca;
+  text-align: center;/*中身を中央ぞろえにする*/
+}
+
+.card a{
+  background-color: cornflowerblue;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px lightgrey;
+  border: none;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.card p{
+  text-align: left;
+  padding: 0px 20px;
+}
