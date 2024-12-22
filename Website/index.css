@@ -1,0 +1,38 @@
+body{
+  margin: 0px;
+  background-color: rgb(248, 238, 238);
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+header{
+  background-color: rgb(253, 249, 249);
+  padding: 8px;
+}
+
+header p{
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 3px;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: white;
+}
+
+.notice{
+  padding: 20px;
+  border: solid 2px red;
+}
+
+p.warning{
+  color: red;
+  font-size: 18px;
+}
+
