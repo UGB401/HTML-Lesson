@@ -36,3 +36,12 @@ p.warning{
   font-size: 18px;
 }
 
+.information-links li{
+  margin-bottom: 4px;
+  padding: 2px 8px;
+  background-color: rgb(238, 237, 237);
+}
+
+.information-links li a{
+  color: red;
+}
