@@ -45,3 +45,66 @@ p.warning{
 .information-links li a{
   color: red;
 }
+
+h2{
+  background-color: rgb(131, 167, 245);
+  box-shadow: 2px 2px #a9a9a9;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.action-links li{
+  background-color: rgb(245, 245, 245);
+  border: solid 1px rgb(190, 190, 190);
+  padding: 3px;
+}
+
+.action-links li a{
+  display: block;
+  padding: 5px 23px;
+  font-size: 23px;
+  color: black;
+  text-decoration: none;
+}
+
+.action-links li:first-child{
+  border-radius: 8px 8px 0px 0px;
+}
+
+.action-links li:last-child{
+  border-radius: 0px 0px 8px 8px;
+}
+
+.navigation-links ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.navigation-links li{
+  width: 49%;
+  margin-bottom: 5px;
+  border: solid 1px rgb(190, 190, 190);
+}
+
+.navigation-links li a{
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+footer{
+  background-color: rgb(253, 249, 249);
+  padding: 8px;
+}
+
+footer p{
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 3px;
+}
