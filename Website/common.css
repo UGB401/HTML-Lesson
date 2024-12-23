@@ -1,0 +1,33 @@
+body{
+  margin: 0px;
+  background-color: rgb(248, 238, 238);
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+header{
+  background-color: rgb(253, 249, 249);
+  padding: 8px;
+}
+header p{
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 3px;
+}
+
+h2{
+  background-color: rgb(131, 167, 245);
+  box-shadow: 2px 2px #a9a9a9;
+  border-radius: 8px;
+  text-align: center;
+  color: rgb(216, 216, 216);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.container{
+  
+}
