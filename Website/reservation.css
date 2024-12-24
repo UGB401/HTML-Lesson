@@ -1,0 +1,18 @@
+.breadcrump{
+  background-color: rgb(235, 235, 235);
+  text-align: center;
+}
+
+.breadcrump ul{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrump li{
+  position: relative;
+  margin-right: 13px;
+  background-color: rgb(69, 178, 189);
+  color: white;
+  width: 100px;
+}
