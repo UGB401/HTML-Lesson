@@ -16,3 +16,20 @@
   color: white;
   width: 100px;
 }
+
+.breadcrump li:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100px;
+  border-style: solid;
+  border-width: 12px 0 12px 11.6px;
+  border-color: transparent transparent transparent rgb(69 178 189);
+}
+
+.breadcrump li.active{
+  background-color: rgb(121, 89, 189);
+}
+.breadcrump li.active:after{
+  border-color: transparent transparent transparent rgb(121 69 189);
+}
