@@ -33,3 +33,37 @@
 .breadcrump li.active:after{
   border-color: transparent transparent transparent rgb(121 69 189);
 }
+
+.form-input{
+  border: solid 1px #c3c3c3;
+  height: 26px;
+  width: 300px;
+}
+
+.form-label{
+  width: 150px;
+  display: inline-block;
+  padding: 11px 10px;
+  background-color: #dadada;
+}
+
+.btn-submit{
+  background-color: #41b5b5;
+  color: white;
+  margin-top: 20px;
+  width: 100px;
+  padding: 10px;
+  height: auto;
+  border-radius: 6px;
+  border: none;
+  font-size: 17px;
+}
+
+.links a{
+  display: block;
+  border-top: solid 1px #c7c7c7;
+  border-bottom: solid 1px #c7c7c7;
+  margin-top: 15px;
+  padding: 10px;
+  text-decoration: none;
+}

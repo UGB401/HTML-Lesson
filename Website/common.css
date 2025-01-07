@@ -1,6 +1,13 @@
 body{
   margin: 0px;
   background-color: rgb(248, 238, 238);
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+.main{
+  flex-grow: 1;
 }
 
 ul{
